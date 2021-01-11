@@ -42,7 +42,7 @@ this.setState({ email:"", password: "" })
                  type="email" 
                  value={this.state.email} 
                  handleChange={this.handleChange}
-                 label="email"
+                 label="Email"
                  required
                   />
                  <FormInput
@@ -50,7 +50,7 @@ this.setState({ email:"", password: "" })
                  type="password" 
                  value={this.state.password} 
                  handleChange={this.handleChange}
-                 label="password"
+                 label="Password"
                  required
                   />
                   <div className="buttons">
